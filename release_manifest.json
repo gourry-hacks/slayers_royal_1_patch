@@ -19,7 +19,7 @@
     "bin": {
       "name": "sr_patched.bin",
       "size": 712300848,
-      "sha256": "4d7937b4fd5c69284e1377f4a020b7f292e2e61c0d1703236b4910324b0275ca"
+      "sha256": "d464bb3c08414f2f1ad284d934b1a96316b44940dadf0d8c5dd837a45bef2d8f"
     },
     "cue": {
       "name": "sr_patched.cue",
@@ -32,11 +32,11 @@
       "format": "SLRXOR1",
       "storage": "xz",
       "block_size": 65536,
-      "record_count": 4947,
-      "delta_size": 324265996,
-      "delta_sha256": "c482eba4cc41bd6caefe284ef36a4b888579ff54424b85e0b422776568562b2b",
-      "stored_size": 125101300,
-      "stored_sha256": "59ecf6e0e1ae49ff5197f8aecd1a20abbb1416ff212482077a9425f5a6876a40",
+      "record_count": 4948,
+      "delta_size": 324331544,
+      "delta_sha256": "540ea024ceee5e9a7a41953c138e8f25969fadb31e344d16a2e3cfcac00af36e",
+      "stored_size": 125104740,
+      "stored_sha256": "7905791f670c0a25b8973aee149df5b8cbf395832f6ae688b83fbc9d2286a66b",
       "parts": [
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part01",
@@ -50,8 +50,8 @@
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part03",
-          "size": 30729460,
-          "sha256": "e2e33c5e51ffa3757077790fb1cd34184f5e39b50dfb450852d92b47d327010f"
+          "size": 30732900,
+          "sha256": "2a672ca30aec162ee32034fff4505ff865759c9992ab3da1902986c6abf9af2a"
         }
       ]
     },
