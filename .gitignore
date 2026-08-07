@@ -1,0 +1,15 @@
+# Never commit disc images or emulator packages.
+*.bin
+*.cue
+*.iso
+*.img
+*.chd
+*.pbp
+*.7z
+*.zip
+
+# Local patch results and Python state.
+output/
+.release-build-*/
+__pycache__/
+*.py[cod]

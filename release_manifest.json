@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "project": "Slayers Royal English Patch",
+  "disc_id": "SLPS-01363",
+  "patch_version": "2026-08-06",
+  "source": {
+    "bin": {
+      "name": "sr.bin",
+      "size": 712300848,
+      "sha256": "89760d728f0580dba1c6176f024d3cd6f8fc105b79bd1c27a819208fa0b4d0fe"
+    },
+    "cue": {
+      "name": "sr.cue",
+      "size": 68,
+      "sha256": "0f93f45114b7fc88b8f57c5449af0828e59699a8780849540a670df7c3a0aa08"
+    }
+  },
+  "target": {
+    "bin": {
+      "name": "sr_patched.bin",
+      "size": 712300848,
+      "sha256": "a128a9fa7f627842bc46a9b48123e187376f41463c298000019ff8d9e637ac28"
+    },
+    "cue": {
+      "name": "sr_patched.cue",
+      "size": 76,
+      "sha256": "c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84"
+    }
+  },
+  "patches": {
+    "bin": {
+      "format": "SLRXOR1",
+      "storage": "xz",
+      "block_size": 65536,
+      "record_count": 4945,
+      "delta_size": 324134900,
+      "delta_sha256": "851a2c231268551d0e94193649e462534757869e41b7f79cb27c1846186a9e5c",
+      "stored_size": 125169144,
+      "stored_sha256": "62bc4acf97e2230ee01110184eb1d9d137323236ea2077a28788a777ea7e9be0",
+      "parts": [
+        {
+          "path": "patches/sr_patched.bin.slrxor.xz.part01",
+          "size": 47185920,
+          "sha256": "672eebcda470300952851473a958b537712afa0d4c47241581af26c3e9be2006"
+        },
+        {
+          "path": "patches/sr_patched.bin.slrxor.xz.part02",
+          "size": 47185920,
+          "sha256": "61e2efe0394820fd2b58784a2c64dc0f97b6a6aafd8e1583f36ff6b2f73796ea"
+        },
+        {
+          "path": "patches/sr_patched.bin.slrxor.xz.part03",
+          "size": 30797304,
+          "sha256": "ea451c8fd8a017c8d114d034ea65f18cbe887df0be875adc988b09efe8fac6d9"
+        }
+      ]
+    },
+    "cue": {
+      "format": "SLRXOR1",
+      "storage": "xz",
+      "block_size": 65536,
+      "record_count": 1,
+      "delta_size": 128,
+      "delta_sha256": "30e0029b313d15852773c267e44577dbc272b5a20b785ac2f99a6215d455c221",
+      "stored_size": 160,
+      "stored_sha256": "78c70e882d86db6c5cf3468f3ca37bf9fc96dd2df7f1c0794ea167859c50ca04",
+      "parts": [
+        {
+          "path": "patches/sr_patched.cue.slrxor.xz.part01",
+          "size": 160,
+          "sha256": "78c70e882d86db6c5cf3468f3ca37bf9fc96dd2df7f1c0794ea167859c50ca04"
+        }
+      ]
+    }
+  }
+}
