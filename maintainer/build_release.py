@@ -38,7 +38,7 @@ EXPECTED = {
         "bin": {
             "name": "sr_patched.bin",
             "size": 712300848,
-            "sha256": "7258a8d95b47beb5b71038781a801eec2293bf7b892535da39da2b2622a861dd",
+            "sha256": "4b564355973fe138d04ea5db1db493b92c1aa5d8cd093b6089d5138888184e95",
         },
         "cue": {
             "name": "sr_patched.cue",
