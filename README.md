@@ -150,10 +150,23 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `71ac8bb08ecb84230f6b69f091fa09c610cc84949cc2bc2fd0cf51f82caba6ff` |
+| `sr_patched.bin` | 712,300,848 bytes | `85fdea63018c7e8a7158c43235dc08a1a236f091dae2197918209e98950d8e05` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
+
+### Optional PlayStation Mouse controls
+
+The patched game keeps the ordinary digital controller on port 1 and also
+accepts a PlayStation Mouse on port 2. Relative mouse motion acts like the
+directional pad, the left button is Circle/confirm, and the right button is
+Cross/cancel. Controller input continues to work normally while the mouse is
+connected.
+
+On original hardware, connect an SCPH-1030-compatible mouse to controller port
+2. In an emulator, leave port 1 as a digital controller and configure port 2 as
+a PlayStation Mouse. Emulators that do not expose a PS Mouse device can still
+run the patch with the normal controller.
 
 ## Troubleshooting
 
