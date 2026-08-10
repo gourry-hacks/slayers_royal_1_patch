@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Slayers Royal English Patch",
   "disc_id": "SLPS-01363",
-  "patch_version": "2026-08-08.1",
+  "patch_version": "2026-08-10.1",
   "source": {
     "bin": {
       "name": "sr.bin",
@@ -19,7 +19,7 @@
     "bin": {
       "name": "sr_patched.bin",
       "size": 712300848,
-      "sha256": "85fdea63018c7e8a7158c43235dc08a1a236f091dae2197918209e98950d8e05"
+      "sha256": "5e3ec58f195123afcbc55f64f8afc67d0248214897a4c926643fd0a95a2df986"
     },
     "cue": {
       "name": "sr_patched.cue",
@@ -32,26 +32,26 @@
       "format": "SLRXOR1",
       "storage": "xz",
       "block_size": 65536,
-      "record_count": 4949,
-      "delta_size": 324397092,
-      "delta_sha256": "63d13cc6bcab3c3ff3d003bee2a62ff4fb35551184324b49a0a909d94e5f070e",
-      "stored_size": 125108108,
-      "stored_sha256": "47b2780b585649699b6c14d8cdbdc12de4bd5f384cce6c6262e22b853a903dcb",
+      "record_count": 4951,
+      "delta_size": 324528188,
+      "delta_sha256": "88e243105142b1cbd383dc01b3298c3ebe2588d54074163e43cc6a88a83551ed",
+      "stored_size": 125124672,
+      "stored_sha256": "9433f0c5270408ae7d281db2d5d2f8e29228821ccf48291904d09afd71d312fd",
       "parts": [
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part01",
           "size": 47185920,
-          "sha256": "9c1e757de7b279fd20f8bc2fa3fdc035801be36736b99b41668c8faaeba4e37c"
+          "sha256": "ec88a67e0b0b7751fce088bd9b8239ccc0ef527ea59cef64158ad887ed6f94fb"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part02",
           "size": 47185920,
-          "sha256": "5334d7d01a15500d81f6428eac2a82552b73c1f529ed2357a59af86f0a56fd87"
+          "sha256": "73004df8853446eb3deea5ea40b3eb568e7f3e4e77f7e1343af6b3f0f5b9aa5a"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part03",
-          "size": 30736268,
-          "sha256": "355505606a2ff80f442edfb4c3d711c24c3ef7bdd4480e4351435dc40d42ef04"
+          "size": 30752832,
+          "sha256": "17ee86d005e3255b460e08a68a14c564b5b065cd5c5adab2848e287484454e57"
         }
       ]
     },

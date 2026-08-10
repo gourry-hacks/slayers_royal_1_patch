@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `85fdea63018c7e8a7158c43235dc08a1a236f091dae2197918209e98950d8e05` |
+| `sr_patched.bin` | 712,300,848 bytes | `5e3ec58f195123afcbc55f64f8afc67d0248214897a4c926643fd0a95a2df986` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
