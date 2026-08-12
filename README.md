@@ -150,10 +150,14 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `8cccbc1f15ae70ec4765e79dd9e420878139ae3b28e3382b66baa9ab2fdf6adb` |
+| `sr_patched.bin` | 712,300,848 bytes | `cf539c2e395bf2215d20a4951a02f475d1e8b1159fd8e4b4eef9bc17fa412265` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
+
+This release also completes the map-label pass: all 160 area placards, all 30
+overworld destination names, all 24 cursor-dependent map labels, and the three
+overworld route subtitles (`AREA`, `ROAD`, and `BACK RD`) are translated.
 
 ### Optional PlayStation Mouse controls
 
