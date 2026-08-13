@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `cf539c2e395bf2215d20a4951a02f475d1e8b1159fd8e4b4eef9bc17fa412265` |
+| `sr_patched.bin` | 712,300,848 bytes | `19a3e2e1ddee017162f52e21db2f00107c4d7e40f69b62bac6a541529114b886` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -158,6 +158,10 @@ Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
 This release also completes the map-label pass: all 160 area placards, all 30
 overworld destination names, all 24 cursor-dependent map labels, and the three
 overworld route subtitles (`AREA`, `ROAD`, and `BACK RD`) are translated.
+
+It also fixes the Sonia City inn transition. The translated scene now remains
+inside its original runtime allocation instead of overwriting the adjacent inn
+resource, so loading the second save and choosing Move → Inn no longer hangs.
 
 ### Optional PlayStation Mouse controls
 
