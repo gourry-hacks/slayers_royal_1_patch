@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `5f3c91b97c43f4f958663431fd73fa321aae2e7557749ac8f6af29ab25e8bae2` |
+| `sr_patched.bin` | 712,300,848 bytes | `dc583655841033a7c54e631737b64a6003fd84fe0273189b995f70a59eaf767a` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -167,7 +167,10 @@ Shop coverage now includes the tavern fallback responses, armory and item-shop
 BUY/SELL menus, comparison statistics, equipment and item catalogs, buyer
 names, and merchant dialogue throughout the game. The runtime font allocations
 for these menus are isolated from the map-label font pool, preventing the
-corrupted buyer names seen in the earlier build.
+corrupted buyer names seen in the earlier build. Item selections use the
+original 16-pixel cursor advance and one ordinary letter per cell; repeated
+catalog strings share read-only records so every label fits without overlapping
+or compressed multi-letter glyphs.
 
 ### Optional PlayStation Mouse controls
 

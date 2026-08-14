@@ -38,7 +38,7 @@ EXPECTED = {
         "bin": {
             "name": "sr_patched.bin",
             "size": 712300848,
-            "sha256": "5f3c91b97c43f4f958663431fd73fa321aae2e7557749ac8f6af29ab25e8bae2",
+            "sha256": "dc583655841033a7c54e631737b64a6003fd84fe0273189b995f70a59eaf767a",
         },
         "cue": {
             "name": "sr_patched.cue",
@@ -188,7 +188,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--target-cue", type=Path, default=parent / "patched" / "sr_patched.cue"
     )
-    parser.add_argument("--patch-version", default="2026-08-13.2")
+    parser.add_argument("--patch-version", default="2026-08-14.1")
     return parser.parse_args()
 
 
