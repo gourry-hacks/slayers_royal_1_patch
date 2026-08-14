@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `19a3e2e1ddee017162f52e21db2f00107c4d7e40f69b62bac6a541529114b886` |
+| `sr_patched.bin` | 712,300,848 bytes | `5f3c91b97c43f4f958663431fd73fa321aae2e7557749ac8f6af29ab25e8bae2` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -162,6 +162,12 @@ overworld route subtitles (`AREA`, `ROAD`, and `BACK RD`) are translated.
 It also fixes the Sonia City inn transition. The translated scene now remains
 inside its original runtime allocation instead of overwriting the adjacent inn
 resource, so loading the second save and choosing Move → Inn no longer hangs.
+
+Shop coverage now includes the tavern fallback responses, armory and item-shop
+BUY/SELL menus, comparison statistics, equipment and item catalogs, buyer
+names, and merchant dialogue throughout the game. The runtime font allocations
+for these menus are isolated from the map-label font pool, preventing the
+corrupted buyer names seen in the earlier build.
 
 ### Optional PlayStation Mouse controls
 
