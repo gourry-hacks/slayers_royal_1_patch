@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `dc583655841033a7c54e631737b64a6003fd84fe0273189b995f70a59eaf767a` |
+| `sr_patched.bin` | 712,300,848 bytes | `d91720b91b7f8bb60611d89c5d14abaa260faef89bc0e7c3ee05d99aa5e81073` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -171,6 +171,13 @@ corrupted buyer names seen in the earlier build. Item selections use the
 original 16-pixel cursor advance and one ordinary letter per cell; repeated
 catalog strings share read-only records so every label fits without overlapping
 or compressed multi-letter glyphs.
+
+Battle coverage now includes all 57 spell-name catalog records, 95 fixed
+spell/action help records across 164 description pages, SELECT-hover help,
+command and status sprites, battle cards, and character-status panels. The
+battle-resident font also carries the English SAVE/LOAD, SLOT, and compact
+location-name cells used when the save browser is opened during combat, rather
+than falling back to Japanese glyphs.
 
 ### Optional PlayStation Mouse controls
 

@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Slayers Royal English Patch",
   "disc_id": "SLPS-01363",
-  "patch_version": "2026-08-14.1",
+  "patch_version": "2026-08-14.2",
   "source": {
     "bin": {
       "name": "sr.bin",
@@ -19,7 +19,7 @@
     "bin": {
       "name": "sr_patched.bin",
       "size": 712300848,
-      "sha256": "dc583655841033a7c54e631737b64a6003fd84fe0273189b995f70a59eaf767a"
+      "sha256": "d91720b91b7f8bb60611d89c5d14abaa260faef89bc0e7c3ee05d99aa5e81073"
     },
     "cue": {
       "name": "sr_patched.cue",
@@ -32,11 +32,11 @@
       "format": "SLRXOR1",
       "storage": "xz",
       "block_size": 65536,
-      "record_count": 4952,
-      "delta_size": 324593736,
-      "delta_sha256": "88abcac4d0e620de4166d207ff192a6f2dd60ce1581793b5aa17e471786bce39",
-      "stored_size": 125166592,
-      "stored_sha256": "91061891687a3cdbf7f04303b9c78bc66ca888e532414abefd5fc1b234a40f13",
+      "record_count": 4953,
+      "delta_size": 324659284,
+      "delta_sha256": "ba8abc43cdcd6645e2232efd1f2aafecf485d6e2975d9b5c60bf8e7906934143",
+      "stored_size": 125171692,
+      "stored_sha256": "b0e4e07b8a9c329fbd92df721280365168689c11f627380adfaa47fe0cd7cb45",
       "parts": [
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part01",
@@ -50,8 +50,8 @@
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part03",
-          "size": 30794752,
-          "sha256": "4b5d2e160e8102fe0b2019df85ea504bc5b7d0ebe43d77de5512b8da63e6aad2"
+          "size": 30799852,
+          "sha256": "3ac125212eb456ad0fec8231c739572c17076542cd31abdae711a866b5919bb5"
         }
       ]
     },
