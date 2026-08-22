@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `d91720b91b7f8bb60611d89c5d14abaa260faef89bc0e7c3ee05d99aa5e81073` |
+| `sr_patched.bin` | 712,300,848 bytes | `fcba9a0eddc1094eadddbf83fe98927e564aae83d71a46ff1f2148cd6528d1f4` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -178,6 +178,10 @@ command and status sprites, battle cards, and character-status panels. The
 battle-resident font also carries the English SAVE/LOAD, SLOT, and compact
 location-name cells used when the save browser is opened during combat, rather
 than falling back to Japanese glyphs.
+
+The character-status pass covers all seven party members and every three-trait
+panel, including Zelgadis, Amelia, Sylphiel, and Lark. Amelia's original
+`AMERIA` side nameplate is corrected to `AMELIA`.
 
 ### Optional PlayStation Mouse controls
 
