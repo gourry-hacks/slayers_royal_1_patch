@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `fcba9a0eddc1094eadddbf83fe98927e564aae83d71a46ff1f2148cd6528d1f4` |
+| `sr_patched.bin` | 712,300,848 bytes | `87f82b3b57380c4574e4def97b2f248ef1a275be2758f616f662cdacdcf572cf` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -182,6 +182,12 @@ than falling back to Japanese glyphs.
 The character-status pass covers all seven party members and every three-trait
 panel, including Zelgadis, Amelia, Sylphiel, and Lark. Amelia's original
 `AMERIA` side nameplate is corrected to `AMELIA`.
+
+The classic mini-game pass translates the complete Slots and Knight vs Monster
+experiences: help pages, dialogue, choices, win and loss results, rematches,
+rewards, and automatic-equipment messages. The Knight vs Monster rules also
+make the original guarantee explicit: White wins every game when the correct
+strategy is used.
 
 ### Optional PlayStation Mouse controls
 
