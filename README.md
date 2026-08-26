@@ -150,7 +150,7 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `87f82b3b57380c4574e4def97b2f248ef1a275be2758f616f662cdacdcf572cf` |
+| `sr_patched.bin` | 712,300,848 bytes | `470198bd19021c32a4a46930ae9bb9ec2ce6fcfa6141d955866087c86ea2b045` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
@@ -188,6 +188,11 @@ experiences: help pages, dialogue, choices, win and loss results, rematches,
 rewards, and automatic-equipment messages. The Knight vs Monster rules also
 make the original guarantee explicit: White wins every game when the correct
 strategy is used.
+
+The full story-script editorial pass reviews all 4,515 dialogue, choice, and
+system turns against the Japanese. It gives the English more natural phrasing
+and consistent character voices while correcting mistranslations involving
+directions, NPC identities, jokes, route logic, and character status.
 
 ### Optional PlayStation Mouse controls
 
