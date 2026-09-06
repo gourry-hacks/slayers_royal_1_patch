@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Slayers Royal English Patch",
   "disc_id": "SLPS-01363",
-  "patch_version": "2026-09-05.1",
+  "patch_version": "2026-09-06.1",
   "source": {
     "bin": {
       "name": "sr.bin",
@@ -19,7 +19,7 @@
     "bin": {
       "name": "sr_patched.bin",
       "size": 712300848,
-      "sha256": "ab78d74a84fdd58ea25fa5b520e1c6cd7f7986b775fde830db8c2fda88e17be0"
+      "sha256": "01817c732f94c2e118e30409dcfddfd06c9a73eec1fd725bc9e3c663680df92f"
     },
     "cue": {
       "name": "sr_patched.cue",
@@ -32,26 +32,26 @@
       "format": "SLRXOR1",
       "storage": "xz",
       "block_size": 65536,
-      "record_count": 4954,
-      "delta_size": 324724832,
-      "delta_sha256": "44fa1ed699e033ea52a3e6ea438647b0ed49f1a117e6ac4b9369e0f14ffc025d",
-      "stored_size": 125175100,
-      "stored_sha256": "f9575ab662ec6dbbcf84a635c7a0acbb094d5a27f6fea3ca11aab5f8de3bb737",
+      "record_count": 4955,
+      "delta_size": 324790380,
+      "delta_sha256": "76300ef641d88cd4abbaf2427e0af54f66b3c8cdf4d3ee79caa009ee1a0e45ae",
+      "stored_size": 125830852,
+      "stored_sha256": "2d4bf6769f84ff63b2941f804248915d2f626d0e19c2250c17ca718c6d15050c",
       "parts": [
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part01",
           "size": 47185920,
-          "sha256": "ec88a67e0b0b7751fce088bd9b8239ccc0ef527ea59cef64158ad887ed6f94fb"
+          "sha256": "477470e078cbc1e875715155343b659b1be738bc5bb1ad2fac2d67ee3b5957bd"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part02",
           "size": 47185920,
-          "sha256": "73004df8853446eb3deea5ea40b3eb568e7f3e4e77f7e1343af6b3f0f5b9aa5a"
+          "sha256": "bf6f216435b8f7fcb2cbca602d437c3640bcc1860328d18ba6406aaef8b8e761"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part03",
-          "size": 30803260,
-          "sha256": "0ab24eacf0db77dd444841a99dbf2ce0169b77d4d04d63940d21024eb0d62bd7"
+          "size": 31459012,
+          "sha256": "b960bdff16f22e0c11e8b7f20d4354a93853e052de2f56666ab0598d3866681a"
         }
       ]
     },
