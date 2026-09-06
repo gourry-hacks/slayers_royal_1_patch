@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "locale": "ru",
+  "name": "Russian",
+  "output_stem": "slayers_royal_ru",
+  "data_preparer": "RUSSIAN LOCALIZATION",
+  "required_characters": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя«»„“—…",
+  "compact_glyph_limit": 32
+}

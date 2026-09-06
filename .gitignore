@@ -10,6 +10,8 @@
 
 # Local patch results and Python state.
 output/
+localization-output/
+localization-work/
 .release-build-*/
 __pycache__/
 *.py[cod]

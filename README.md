@@ -20,6 +20,18 @@ It does **not** include the game. You must provide your own matching BIN/CUE
 dump of the original disc. The patcher checks the complete source hashes and
 refuses incompatible images.
 
+## Translating Into Another Language
+
+The repository also includes an experimental end-to-end localization toolkit.
+It exports the Japanese story script from a verified source disc into a
+translator-friendly PO catalog, supports locale-specific font-tile allocation
+(including Cyrillic), validates the game's page and line limits, and rebuilds
+a localized BIN/CUE over the current English release.
+
+See [localization/README.md](localization/README.md) for the Russian workflow,
+current coverage, and build commands. Generated Japanese source catalogs and
+disc images are intentionally excluded from the repository.
+
 ## What You Need
 
 - A legal copy of the Japanese PlayStation game
