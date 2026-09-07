@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Slayers Royal English Patch",
   "disc_id": "SLPS-01363",
-  "patch_version": "2026-09-06.1",
+  "patch_version": "2026-09-07.1",
   "source": {
     "bin": {
       "name": "sr.bin",
@@ -19,7 +19,7 @@
     "bin": {
       "name": "sr_patched.bin",
       "size": 712300848,
-      "sha256": "01817c732f94c2e118e30409dcfddfd06c9a73eec1fd725bc9e3c663680df92f"
+      "sha256": "0e85c5b9fc1f894e0bcafe631f890c7c1961011df29ad3f96abef21d91da7f04"
     },
     "cue": {
       "name": "sr_patched.cue",
@@ -34,24 +34,24 @@
       "block_size": 65536,
       "record_count": 4955,
       "delta_size": 324790380,
-      "delta_sha256": "76300ef641d88cd4abbaf2427e0af54f66b3c8cdf4d3ee79caa009ee1a0e45ae",
-      "stored_size": 125830852,
-      "stored_sha256": "2d4bf6769f84ff63b2941f804248915d2f626d0e19c2250c17ca718c6d15050c",
+      "delta_sha256": "bfca18b8bf4f8d7c02f000eee135fe7fc3e34b97981104a2663730f5b9a0e739",
+      "stored_size": 126321812,
+      "stored_sha256": "6d9629e2b50470b1f4950b155c960d0400bf6e7f210f0781f934713155e4f05a",
       "parts": [
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part01",
           "size": 47185920,
-          "sha256": "477470e078cbc1e875715155343b659b1be738bc5bb1ad2fac2d67ee3b5957bd"
+          "sha256": "22b5ed53bac468a9632770beab6679dfea5eda42bbc3aeadce1264365ec82ed9"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part02",
           "size": 47185920,
-          "sha256": "bf6f216435b8f7fcb2cbca602d437c3640bcc1860328d18ba6406aaef8b8e761"
+          "sha256": "feaa19348d2ad4eeae0b627fd31d477a4eaa2469179d00db1236b24a3ccaa1a2"
         },
         {
           "path": "patches/sr_patched.bin.slrxor.xz.part03",
-          "size": 31459012,
-          "sha256": "b960bdff16f22e0c11e8b7f20d4354a93853e052de2f56666ab0598d3866681a"
+          "size": 31949972,
+          "sha256": "713437d14362281befed7a367939765cb8865344c692c58bbaab5e57d03b2e13"
         }
       ]
     },

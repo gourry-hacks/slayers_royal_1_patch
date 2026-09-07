@@ -162,10 +162,16 @@ Expected results:
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
-| `sr_patched.bin` | 712,300,848 bytes | `01817c732f94c2e118e30409dcfddfd06c9a73eec1fd725bc9e3c663680df92f` |
+| `sr_patched.bin` | 712,300,848 bytes | `0e85c5b9fc1f894e0bcafe631f890c7c1961011df29ad3f96abef21d91da7f04` |
 | `sr_patched.cue` | 76 bytes | `c5384aae77bd17955acb4559d92422f7e11057619e83f55f7726fd975f5bfc84` |
 
 Load `sr_patched.cue`, not the BIN directly, in a PlayStation emulator.
+
+The 2026-09-07.1 update repairs EDC/ECC integrity fields in 1,807 data
+sectors. All game data, executable code, translations, graphics, audio, and
+sector headers are byte-identical to the previous release. All 276,789 Mode 2
+Form 1 sectors pass independent checksum validation. Physical-console testing
+of this update has not been performed.
 
 This release also completes the map-label pass: all 160 area placards, all 30
 overworld destination names, all 24 cursor-dependent map labels, and the three
