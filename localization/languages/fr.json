@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "locale": "fr",
+  "name": "French",
+  "output_stem": "slayers_royal_fr",
+  "required_characters": "ÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ«»",
+  "data_preparer": "FRENCH LOCALIZATION",
+  "compact_glyph_limit": 32
+}

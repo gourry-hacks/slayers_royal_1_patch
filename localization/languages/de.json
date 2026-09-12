@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "locale": "de",
+  "name": "German",
+  "output_stem": "slayers_royal_de",
+  "required_characters": "ÄÖÜäöüß",
+  "data_preparer": "GERMAN LOCALIZATION",
+  "compact_glyph_limit": 32
+}

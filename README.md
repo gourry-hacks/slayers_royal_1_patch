@@ -28,9 +28,11 @@ translator-friendly PO catalog, supports locale-specific font-tile allocation
 (including Cyrillic), validates the game's page and line limits, and rebuilds
 a localized BIN/CUE over the current English release.
 
-See [localization/README.md](localization/README.md) for the Russian workflow,
-current coverage, and build commands. Generated Japanese source catalogs and
-disc images are intentionally excluded from the repository.
+Russian, French, Spanish, and German authoring presets are included. These are
+language/font definitions, not completed translations. See
+[localization/README.md](localization/README.md) for the workflow, current
+coverage, and build commands. Generated Japanese source catalogs and disc
+images are intentionally excluded from the repository.
 
 ## What You Need
 

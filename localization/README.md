@@ -112,6 +112,22 @@ The game does not receive Unicode support. UTF-8 is only the authoring format;
 the builder maps each used character to a renderer-safe tile ID and rasterizes
 that tile into the game's existing font atlas.
 
+## Included language presets
+
+Russian (`ru`), French (`fr`), Spanish (`es`), and German (`de`) presets are
+included. They reserve the target alphabet, including accents and ligatures,
+and use separate output names. These are authoring definitions, not completed
+translations. Replace `ru` in the commands and workspace/output paths above
+with the desired code, for example:
+
+```bash
+python3 localize.py export --bin /path/to/sr.bin --locale fr --output localization-work/fr
+```
+
+The same source, layout, glyph-allocation, and packed-font capacity checks
+apply to every preset. The incomplete-build limitation described above also
+applies to all languages.
+
 ## Adding another language
 
 Copy `localization/languages/ru.json` to a new locale code. Keep

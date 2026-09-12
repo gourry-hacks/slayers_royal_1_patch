@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "locale": "es",
+  "name": "Spanish",
+  "output_stem": "slayers_royal_es",
+  "required_characters": "ÁÉÍÑÓÚÜáéíñóúü¡¿",
+  "data_preparer": "SPANISH LOCALIZATION",
+  "compact_glyph_limit": 32
+}
